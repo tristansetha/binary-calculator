@@ -1,0 +1,24 @@
+<!-- Enter your HTML code here -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Binary Calculator</title>
+    <link rel="stylesheet" href="css/binaryCalculator.css" type="text/css" />
+  </head>
+  <body>
+    <div id="res"></div>
+    <div id="btns">
+      <button id="btn0" onclick="append(0)">0</button>
+      <button id="btn1" onclick="append(1)">1</button>
+      <button id="btnClr" onclick="clearRes()">C</button>
+      <button id="btnEql" onclick="equals()">=</button>
+      <button id="btnSum" onclick="handleOperator('+')">+</button>
+      <button id="btnSub" onclick="handleOperator('-')">-</button>
+      <button id="btnMul" onclick="handleOperator('*')">*</button>
+      <button id="btnDiv" onclick="handleOperator('/')">/</button>
+    </div>
+    <script src="js/binaryCalculator.js" type="text/javascript"></script>
+  </body>
+</html>
+
